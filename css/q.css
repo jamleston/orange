@@ -1,0 +1,219 @@
+*{ 
+	margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular.ttf");
+  src: url("../fonts/HelveticaRegular.eot") format("embedded-opentype"), url("../fonts/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+ }
+ .clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.section1 {
+    background: linear-gradient(to top left, #ff9626, #f63d4b);
+    background-size: cover;
+	height: 100vh;
+}
+
+.section1 .wrap{
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+.section1 .wrap .logo img {
+	display: block;
+	margin-top: -20px;
+	margin-left: 375px;
+}
+.section1 .menu ul li{
+  display: inline-block;
+  float: right;
+  margin-top: 40px;
+}
+.menu ul {
+  max-width: 1200px;
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+}
+.menu a {
+  font-family: "ArialBold";
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 14px;
+  text-align: center;
+  font-weight:bold;
+}
+.menu a:hover {
+  color: #ff9526;
+}
+.main_content h1 {
+	font-size: 28px;
+	margin-top: 180px;
+	margin-left: 375px;
+	color: white;
+	display: block;
+	float: left;
+}
+.main_content p{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 375px;
+	color: white;
+	display: block;
+	float: left;
+}
+.section1 .wrap input {
+	border: 2px solid white;
+	height: 66px;
+	width: 245px;
+	background-image: none;
+	margin-top: 60px;
+	margin-left: 375px;
+	float: left;
+    background: transparent;
+    color: white;
+}
+.section1 .wrap input:hover {
+  background-color: white;
+  color: #fc6545;
+}
+.section1 .wrap .tel img {
+	display: block;
+	margin-right: 50px;
+	margin-top: -200px;
+	float: right;
+	height: 500px;
+}
+
+.section2 {
+    background: white;
+    background-size: cover;
+    height: 100vh;
+}
+.section2 .wrap{
+  max-width: 1200px;
+  width: 100%;
+  height: 575px;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.section2 .wrap h3 {
+  height: 13px;
+  color: #ff8400;
+  margin-top: 100px;
+  margin-left: 685px;
+}
+
+.section2 .wrap h1 {
+  height: 25px;
+  color: #343434;
+  margin-top: 25px;
+  margin-left: 610px;
+}
+
+.icons {
+  display: block;
+  margin-left: 25%;
+  transform: (-50% -50%)
+}
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+  display: block;
+  float: left;
+  padding-top: 80px;
+  padding-left: 0px;
+  height: 250px;
+  width: 300px;
+}
+
+
+
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 h5, p {
+  text-align: center;
+}
+
+.section2 h5{
+  height: 20px;
+  margin-top: 15px;
+}
+
+
+.section2 .icons p{
+  height: 10px;
+  color: #5c5c5c;
+  margin-top: 15px;
+}
+
+.section3 {
+    background: linear-gradient(to top left, #ff9626, #f63d4b);
+    background-size: cover;
+    height: 70vh;
+}
+
+.section3 .wrap{
+  max-width: 1200px;
+  width: 100%;
+  height: 500px;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.forma {
+  float: left;
+}
+
+.forma h1 {
+  color: white;
+  margin-top: 100px;
+  margin-left: 520px;
+}
+
+.forma p {
+  color: white;
+  height: 15px;
+  margin-left: 480px;
+  margin-top: 15px;
+}
+
+
+.section3 .wrap .forma .email input {
+  border: 2px solid white;
+  margin-left: 400px;
+  margin-top: 80px;
+  height: 66px;
+  width: 400px;
+  background-image: none;
+  float: left;
+    background: transparent;
+    color: white;
+}
+
+.section3 .wrap .forma .but input {
+  border: 2px solid white;
+  margin-right: -50px;
+  margin-top: 80px;
+  height: 66px;
+  width: 200px;
+  float: right;
+  background-color: white;
+  color: #ff8400;
+}
+
+
+
+
+
+
